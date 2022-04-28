@@ -1,0 +1,679 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "CmsContext",
+   "ContextNamespace": "Data",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "Models",
+   "OutputContextPath": "Data\/Cms",
+   "OutputPath": "Models\/Cms",
+   "ProjectRootNamespace": "ERAManagementSystem",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Accounts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ActivityTypeLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Advance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AdvertisingDate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AdvertisingDateSPN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Altitude]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AnalysisTypeLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Appraisal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AppraisalLocationLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AppraisalStatusLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AppraiseeLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ArtifactManagementDetailLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ArtifactManagementLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AssessmentMetadata]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AssessmentScoreLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Bid]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Bidder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BidDivision]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BidItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BidSeries]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BoQ]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BoQDivisionEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BoQItemEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BoQSeriesEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CacReleasedTender]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CacSecretaryAssignment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Claim]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ClaimCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConstructionActivityLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConsultantsPerformances]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConsultantsPrograms]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Contract]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractAssignment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractCategoryLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractImplementer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractorProgram]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractPerformanceScore]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractPhases]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractProgressAsNew]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractProgressPerformanceScore]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Correspondence]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CorrespondentsLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Country]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CurrencyBreakDown]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CurrencyLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CustomItemUnitLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DeliverableLookups]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Deliverables]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Discussion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DisputedIssue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Division]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EngineeringEstimate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Equipment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EquipmentClassification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EquipmentCost]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EquipmentCostLocal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EquipmentSubclassification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EramsBackupMetadata]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EramsFlag]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ERARegion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ErrorReports]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateCommittes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EthiopianCity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EthiopianRegion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EvsSetting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FileStorage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FileStorageMetadata]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FileUploads]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[financedBys]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FinancialInstitute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Firm]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FundSource]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FundSourceLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GlobalSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Guarantee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GuaranteeCurrencyBreakdown]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GuaranteeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HaulTypeLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Head]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[IPC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Issue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Item]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemWorkMethod]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Jco]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[JcoBackup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[JV_Detail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KeyStaffProgress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KeyStaffRegister]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KeyStaffRegisterFiles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Labour]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LabourClassCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LabourClassification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LabourCost]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LabourCostLocal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Material]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MaterialCost]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MaterialCostLocal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MaterialUnit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Measurement]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MovLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Ownership]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PasDivisonsWeight]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PasFeedback]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Payments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Phase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PhaseCurrencyBreakdowns]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PositionLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Project]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProjectCurrencyBreakdown]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProjectFunders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProjectPerKm]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProjectType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Property]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PropertyType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QuantityChange]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QuantityChangeCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QuantityChangeSubCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RateBuilderAssignment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[remarks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ResponseGuideline]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoadProperty]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoadSegmentLists]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RSDP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Series]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Specification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Subcity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Supplements]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TacReleasedTender]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TeamLeaderNote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tender]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TenderAssignment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Terrain]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TownsPassed]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Training]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransformedContractValue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Unit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnitMeasure]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VariationOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VariationOrderCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VariationOrderSubcategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AppraisalIndicatorsView]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[AssessedContracts]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[AssessmentRegisterView]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[AssetManagementTenders]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[AwardedTendersByRegion]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[BidBoQItems]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[BidView]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[Budet Problem]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[CacTenders]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[EstimateByCreator]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[EstimateView]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[HistoricRate]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[utilContract]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VatInclusiveColumenUpdateForPawe...]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[View_RateEquipment]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[WinningBid]",
+         "ObjectType": 3
+      }
+   ],
+   "UiHint": "DESKTOP-86KNRLO\\SQLEXPRESS.CMS",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

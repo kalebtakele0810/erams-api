@@ -1,0 +1,351 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "EramsContext",
+   "ContextNamespace": "Data",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "Models",
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "ERAManagementSystem",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[aspnet_Applications]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[aspnet_Paths]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationAllUsers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationPerUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[aspnet_Profile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[aspnet_Roles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[aspnet_SchemaVersions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[aspnet_Users]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[aspnet_UsersInRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[aspnet_WebEvent_Events]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Directorates]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KeystaffUsers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MandatoryRolesMatrix]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Positions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[vw_aspnet_Applications]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_aspnet_MembershipUsers]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_aspnet_Profiles]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_aspnet_Roles]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_aspnet_Users]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_aspnet_UsersInRoles]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_aspnet_WebPartState_Paths]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_aspnet_WebPartState_Shared]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_aspnet_WebPartState_User]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[aspnet_AnyDataInTables]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Applications_CreateApplication]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_CheckSchemaVersion]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_ChangePasswordQuestionAndAnswer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_CreateUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_FindUsersByEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_FindUsersByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_GetAllUsers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_GetNumberOfUsersOnline]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_GetPassword]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_GetPasswordWithFormat]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_GetUserByEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_GetUserByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_GetUserByUserId]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_ResetPassword]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_SetPassword]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_UnlockUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_UpdateUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Membership_UpdateUserInfo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Paths_CreatePath]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Personalization_GetApplicationId]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationAdministration_DeleteAllState]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationAdministration_FindState]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationAdministration_GetCountOfState]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationAdministration_ResetSharedState]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationAdministration_ResetUserState]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationAllUsers_GetPageSettings]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationAllUsers_ResetPageSettings]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationAllUsers_SetPageSettings]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationPerUser_GetPageSettings]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationPerUser_ResetPageSettings]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_PersonalizationPerUser_SetPageSettings]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Profile_DeleteInactiveProfiles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Profile_DeleteProfiles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Profile_GetNumberOfInactiveProfiles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Profile_GetProfiles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Profile_GetProperties]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Profile_SetProperties]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_RegisterSchemaVersion]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Roles_CreateRole]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Roles_DeleteRole]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Roles_GetAllRoles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Roles_RoleExists]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Setup_RemoveAllRoleMembers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Setup_RestorePermissions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_UnRegisterSchemaVersion]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Users_CreateUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_Users_DeleteUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_UsersInRoles_AddUsersToRoles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_UsersInRoles_FindUsersInRole]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_UsersInRoles_GetRolesForUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_UsersInRoles_GetUsersInRoles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_UsersInRoles_IsUserInRole]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_UsersInRoles_RemoveUsersFromRoles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[aspnet_WebEvent_LogEvent]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "DESKTOP-86KNRLO\\SQLEXPRESS.EramsUsers",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}
